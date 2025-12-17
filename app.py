@@ -22,7 +22,7 @@ if not api_key:
 
 # Configura o Modelo Gemini
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # O Prompt Mestre (A Alma do Negócio)
 PROMPT_MESTRE = """
